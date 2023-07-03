@@ -1,21 +1,28 @@
 body {
-    background-color: rgb(231, 236, 252);
+    background-color: #e0e8ff;
+    background-size: contain;
 }
 .cover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
     justify-content: center;
+    background: url(./pattern-background-desktop.svg) no-repeat;
 }
 .sample-1 {
-    object-fit: scale-down;
+    margin-left: 100px;
 }
 .sample-2 {
-    object-fit: contain;
+    margin-left: 160px;
 }
 .sample-3 {
-    object-fit: contain;
+    margin-left: 100px;
 }
 .sample-4 {
-    object-fit: contain;
+    margin-left: 100px;
+}
+p {
+    font-family: "Outfit", sans-serif;
+    margin-left: 100px;
 }
