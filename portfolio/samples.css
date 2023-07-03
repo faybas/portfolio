@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(231, 236, 252);
+}
+.cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+.sample-1 {
+    object-fit: scale-down;
+}
+.sample-2 {
+    object-fit: contain;
+}
+.sample-3 {
+    object-fit: contain;
+}
+.sample-4 {
+    object-fit: contain;
+}
