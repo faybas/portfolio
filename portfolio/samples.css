@@ -25,5 +25,14 @@ body {
 p {
     font-family: "Outfit", sans-serif;
     margin-left: 100px;
-    color: gray;
+}
+p a{        
+    color: rgb(59, 58, 58);
+    text-decoration: none;
+    transition: 0.8s;
+    cursor: pointer;
+}
+p a:hover {    
+    text-decoration: underline;
+    color: rgb(182, 48, 235);
 }
