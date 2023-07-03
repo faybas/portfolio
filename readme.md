@@ -1,1 +1,1 @@
-- doing this coz git wont puch
+- doing this coz git wont push
