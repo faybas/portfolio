@@ -8,7 +8,7 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-gap: 0px;
     justify-content: center;
-    background: url(./pattern-background-desktop.svg) no-repeat;
+    background: url(D:/portfolio/images/pattern-background-desktop.svg) no-repeat;
 }
 .sample-1 {
     margin-left: 100px;
@@ -25,4 +25,5 @@ body {
 p {
     font-family: "Outfit", sans-serif;
     margin-left: 100px;
+    color: gray;
 }
