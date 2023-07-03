@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(231, 236, 252);
+    font-family: "Red Hat Display", sans-serif;
+}
+.nav a{
+    float: center;
+    color: gray;
+    text-align: center;
+    padding: 0px 100px;
+    text-decoration: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.cont-1 {
+    padding-top: 400px;
+    padding-left: 100px;
+    text-align: center;
+}
+.moi {
+    width: 550px;
+    height: 700px;
+    border: 1px solid rgb(231, 236, 252);
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+p {
+    color: gray;
+}
