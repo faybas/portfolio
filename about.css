@@ -7,7 +7,7 @@ body {
 section {    
     display: grid;
     justify-content: center;
-    background: url(D:/portfolio/images/pattern-background-desktop.svg) no-repeat;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
 }
 p {    
     color: gray;

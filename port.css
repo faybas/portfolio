@@ -10,7 +10,7 @@ body {
     text-decoration: none;
 }
 .container {
-    background: url(D:/portfolio/images/pattern-background-desktop.svg) no-repeat;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
 }
 .container {
     display: grid;

@@ -1,6 +1,7 @@
 body {
     background-color: #e0e8ff;
     background-size: contain;
+    font-family: "Outfit", sans-serif;
 }
 .cover {
     display: grid;
@@ -8,7 +9,10 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-gap: 0px;
     justify-content: center;
-    background: url(D:/portfolio/images/pattern-background-desktop.svg) no-repeat;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+}
+img {    
+    border-radius: 10px;
 }
 .sample-1 {
     margin-left: 100px;
