@@ -3,6 +3,13 @@ body {
     background-size: contain;
     font-family: "Outfit", sans-serif;
 }
+.nav a{
+    float: center;
+    color: gray;
+    text-align: center;
+    padding: 0px 90px;
+    text-decoration: none;
+}
 .cover {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -10,6 +17,7 @@ body {
     grid-gap: 0px;
     justify-content: center;
     background: url(./images/pattern-background-desktop.svg) no-repeat;
+    padding-top: 20px;
 }
 img {    
     border-radius: 10px;
