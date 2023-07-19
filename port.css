@@ -29,9 +29,19 @@ body {
     border-radius: 50%;
     margin-top: 50px;
     margin-left: 50px;
+    padding-bottom: 20px;
     background-color: #e0e8ff;
 }
 p {
     color: gray;
     font-size: large;
 }
+footer {
+    background-color: #d6e1ff;
+    font-family: "Outfit", sans-serif;
+    color: rgb(59, 58, 58);
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+}
+

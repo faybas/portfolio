@@ -52,3 +52,11 @@ p a:hover {
     text-decoration: underline;
     color: rgb(182, 48, 235);
 }
+footer {
+    background-color: #d6e1ff;
+    font-family: "Outfit", sans-serif;
+    color: rgb(59, 58, 58);
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+}
