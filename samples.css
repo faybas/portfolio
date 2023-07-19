@@ -37,6 +37,10 @@ img {
 p {
     font-family: "Outfit", sans-serif;
     margin-left: 100px;
+    color: rgb(59, 58, 58);
+}
+.words {
+    margin-left: 0px;
 }
 p a{        
     color: rgb(59, 58, 58);
