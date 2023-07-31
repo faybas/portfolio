@@ -7,7 +7,7 @@ body {
     float: center;
     color: rgb(59, 58, 58);
     text-align: center;
-    padding: 0px 90px;
+    padding: 0px 80px;
     text-decoration: none;
 }
 .cover {
@@ -26,12 +26,19 @@ img {
     margin-left: 100px;
 }
 .sample-2 {
-    margin-left: 160px;
+    margin-left: 100px;
 }
 .sample-3 {
     margin-left: 100px;
 }
 .sample-4 {
+    margin-left: 100px;
+}
+.tic {
+    width: 450px;
+    height: 500px;
+}
+.sample-5 {
     margin-left: 100px;
 }
 p {
