@@ -12,10 +12,9 @@ body {
 }
 .cover {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 0px;
-    justify-content: center;
     background: url(./images/pattern-background-desktop.svg) no-repeat;
     padding-top: 20px;
 }
@@ -23,38 +22,64 @@ img {
     border-radius: 10px;
 }
 .sample-1 {
-    margin-left: 100px;
+    margin-left: 300px;
 }
 .sample-2 {
-    margin-left: 100px;
+    margin-left: 300px;
 }
 .sample-3 {
-    margin-left: 100px;
+    margin-left: 300px;
 }
 .sample-4 {
-    margin-left: 100px;
+    margin-left: 300px;
 }
 .tic {
     width: 450px;
     height: 500px;
+    margin-left: 150px;
+}
+.cafe-menu {
+    margin-left: 200px;
+}
+.nft-card {
+    margin-left: 200px;
+}
+.order-summary {
+    margin-left: 200px;
+}
+.qr-code {
+    margin-left: 200px;
 }
 .sample-5 {
-    margin-left: 100px;
+    margin-left: 300px;
 }
 .sample-6 {
-    margin-left: 100px;
+    margin-left: 300px;
+}
+.sample-7 {
+    margin-left: 300px;
 }
 .js-web {
-    width: 550px;
-    height: 500px
+    width: 700px;
+    height: 500px;
+    margin-left: 70px;
+}
+.todoapp {
+    width: 700px;
+    height: 500px;
+    margin-left: 70px;
 }
 p {
     font-family: "Outfit", sans-serif;
-    margin-left: 100px;
+    margin-left: 300px;
     color: rgb(59, 58, 58);
 }
 .words {
-    margin-left: 0px;
+    margin-left: 50px;
+}
+.words-1 {
+    margin-left: 50px;
+    margin-right: 150px;
 }
 p a{        
     color: rgb(59, 58, 58);
