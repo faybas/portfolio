@@ -1,47 +1,63 @@
 body {
-    background-color: #e0e8ff;
+    background-color: rgb(244, 243, 243);
     font-family: "Outfit", sans-serif;
 }
 .nav a{
     float: center;
-    color: rgb(59, 58, 58);
+    color: rgb(43, 43, 43);
     text-align: center;
-    padding: 0px 100px;
+    padding: 0px 30px;
     text-decoration: none;
+    transition: 0.8s;
+    cursor: pointer;
 }
-.container {
-    background: url(./images/pattern-background-desktop.svg) no-repeat;
+.nav a:hover {
+    color: rgb(217, 199, 158);
+}
+.nav i {
+    color: rgb(43, 43, 43);
+    transition: 0.8s;
+    cursor: pointer;
+}
+.nav i:hover {
+    color: rgb(217, 199, 158)
 }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
-.cont-1 {
-    padding-top: 400px;
-    padding-left: 100px;
-    text-align: center;
-}
 .moi {
     width: 650px;
     height: 650px;
-    border: 1px solid rgb(231, 236, 252);
-    border-radius: 50%;
+    border: 1px solid rgb(240, 147, 161);
     margin-top: 50px;
     margin-left: 50px;
     padding-bottom: 20px;
-    background-color: #e0e8ff;
+    background-color: rgb(240, 147, 161);
+    border-top-left-radius: 80%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 50%;
+}
+.cont-1 {
+    margin-top: 300px;
+    text-align: center;
 }
 p {
-    color: rgb(59, 58, 58);
+    color: rgb(107, 107, 107);
     font-size: large;
 }
 footer {
-    background-color: #d6e1ff;
+    background-color: rgb(244, 243, 243);
     font-family: "Outfit", sans-serif;
     color: rgb(59, 58, 58);
     text-align: center;
     height: 100px;
     padding-top: 30px;
 }
+h1 {
+    color: rgb(240, 147, 161);
+}
+
 

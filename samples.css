@@ -1,21 +1,33 @@
 body {
-    background-color: #e0e8ff;
+    background-color: rgb(244, 243, 243);
     background-size: contain;
     font-family: "Outfit", sans-serif;
 }
 .nav a{
     float: center;
-    color: rgb(59, 58, 58);
+    color: rgb(107, 107, 107);
     text-align: center;
     padding: 0px 80px;
     text-decoration: none;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.nav a:hover {
+    color: rgb(217, 199, 158);
+}
+.nav i {
+    color: rgb(107, 107, 107);
+    transition: 0.8s;
+    cursor: pointer;
+}
+.nav i:hover {
+    color: rgb(217, 199, 158)
 }
 .cover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 0px;
-    background: url(./images/pattern-background-desktop.svg) no-repeat;
     padding-top: 20px;
 }
 img {    
@@ -89,13 +101,14 @@ p a{
 }
 p a:hover {    
     text-decoration: underline;
-    color: rgb(182, 48, 235);
+    color: rgb(217, 199, 158);
 }
 footer {
-    background-color: #d6e1ff;
+    background-color: rgb(244, 243, 243);
     font-family: "Outfit", sans-serif;
     color: rgb(59, 58, 58);
     text-align: center;
     height: 100px;
     padding-top: 30px;
+    margin-left: -170px;
 }

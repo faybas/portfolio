@@ -1,36 +1,52 @@
 body {
-    background-color: #e0e8ff;
-    background-size: contain;
+    background-color: rgb(244, 243, 243);
     font-family: "Outfit", sans-serif;
-    text-align: center;
 }
 .nav a{
     float: center;
-    color: rgb(59, 58, 58);
-    text-align: center;
-    padding: 0px 80px;
+    color: rgb(107, 107, 107);
+    padding: 0px 30px;
     text-decoration: none;
+    transition: 0.8s;
+    cursor: pointer;
 }
-.section {    
+.nav a:hover {
+    color: rgb(217, 199, 158);
+}
+.nav i {
+    color: rgb(107, 107, 107);
+    transition: 0.8s;
+    cursor: pointer;
+}
+.nav i:hover {
+    color: rgb(217, 199, 158)
+}
+.container {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
-    background: url(./images/pattern-background-desktop.svg) no-repeat;
+}
+.moi {
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 50%;
+}
+.container-1 {
+    margin-top: 300px;
+    text-align: center;
 }
 p {    
     color: rgb(59, 58, 58);
     padding-top: 50px;
 }
-.container {
-    width: 500px;
-    height: 700px;
-}
-.moi {
-    width: 400px;
-    height: 420px;
-    border-radius: 10px;
-}
 footer {
-    background-color: #d6e1ff;
+    background-color: rgb(244, 243, 243);
     font-family: "Outfit", sans-serif;
     color: rgb(59, 58, 58);
     text-align: center;
