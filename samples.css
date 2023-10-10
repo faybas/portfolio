@@ -26,12 +26,15 @@ body {
 .cover {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 0px;
+    grid-template-rows: 1fr 1fr;
     padding-top: 50px;
 }
 img {    
     border-radius: 10px;
+}
+.health-app {
+    width: 450px;
+    height: 400px;
 }
 .js-web {
     width: 450px;
@@ -66,6 +69,7 @@ p a:hover {
     text-decoration: underline;
     color: rgb(217, 199, 158);
 }
+
 footer {
     background-color: rgb(244, 243, 243);
     font-family: "Outfit", sans-serif;
